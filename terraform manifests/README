@@ -1,0 +1,9 @@
+This is a Demo Project where I used basic concepts of AWS and Terraform to create a basic AWS Infrastructure.
+Upon successful run, this configuration should create:
+1. One VPC with one Route Table, Two Subnets, Two Security Groups, One Internet Gateway
+2. Two instances i.e. one in Public subnet and another one in Private subnet
+3. Apache will be installed on both of the public subnets
+4. A local provisioner will run to output Public ips of the subnets
+5. One Application Load Balancer that will balance the incpoming traffic between two public instances
+6. A child module and using that a S3 bucket will be created
+7. Output a number of required parameters
