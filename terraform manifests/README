@@ -7,3 +7,4 @@ Upon successful run, this configuration should create:
 5. One Application Load Balancer that will balance the incpoming traffic between two public instances
 6. A child module and using that a S3 bucket will be created
 7. Output a number of required parameters
+Please use own access key and secret key or any other methods of storing environment variables while running. Above mentioned keys are not usable.
