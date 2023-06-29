@@ -12,7 +12,7 @@ variable "instance_type" {
   type        = string
 }
 
-#locals can be used anywhere in the code. part of DRY principle to avoid repetation.
+#locals can be used anywhere in the code. part of DRY principle to avoid repetation...
 locals {
   name = "new-resource"
 }
